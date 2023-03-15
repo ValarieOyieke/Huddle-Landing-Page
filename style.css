@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Hero Section */
+
+.hero {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('images/bg-hero-mobile.svg');
+  background-size: cover;
+  background-color: hsl(193, 100%, 96%);
+  margin-bottom: 40px;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+}
+.hero-header img {
+  width: 150px;
+  height: 25px;
+}
+.hero-header > button {
+  border-radius: 20px;
+  padding: 8px 25px;
+  font-weight: bold;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 8px 0 rgba(173, 169, 169, 0.2), 0 6px 20px 0 rgba(202, 198, 198, 0.082);
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 10px;
+}
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.hero-section-content > button {
+  width: 220px;
+  padding: 12px 5px;
+  border-radius: 30px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 10px;
+}
+.hero-section-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 25px 20px 25px;
+  margin: 35px 25px;
+  /* border: 1px solid cyan; */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(173, 169, 169, 0.2), 0 6px 20px 0 rgba(202, 198, 198, 0.082);
+}
+.positioned-margin{
+    margin-bottom: 290px;  /* used for positioned element, this is set below the last main class element (Your Users)*/
+}
+.main-content {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 10px;
+}
+.main-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 80px 20px 50px 30px;
+}
+
+.footer-contact{
+    margin-top: 200px; /* for positioned element*/
+}
+
+.footer-contact-logo {
+  width: 220px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(184deg)
+    brightness(104%) contrast(101%);
+}
+.footer-ci {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-ci > img {
+  width: 25px;
+  height: 20px;
+}
+.footer-ci-l {
+  margin-left: 13px;
+}
+.white-circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 100%;
+  font-size: 30px;
+}
+.footer-socials {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+/* positioned elements under main */
+.main-positioned {
+  width: 460px;
+  margin: -130px auto 0 auto;
+  /* border: 1px solid cyan; */
+  border-radius: 20px;
+  text-align: center;
+  padding: 60px 25px 60px 25px;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 20;
+  top: 10;
+  box-shadow: 0 4px 8px 0 rgba(173, 169, 169, 0.2), 0 6px 20px 0 rgba(202, 198, 198, 0.082);
+}
+.main-positioned > h2{
+    margin: 0px 0 20px 0;
+   
+}
+.main-positioned > button{
+    width: 220px;
+    padding: 15px 5px;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
