@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Huddle Landing Page</title>
   </head>
@@ -57,7 +60,7 @@
         </div>
       </div>
       
-      <div class="main">
+      <div class="main positioned-margin">
         <img class="main-img" src="/images/illustration-your-users.svg" alt="">
         <div class="main-content">
         <h2>Your Users</h2>
@@ -70,7 +73,7 @@
       </div>
       
       <!-- positioned element -->
-      <div>
+      <div class="main-positioned">
         <h2>Ready To Build Your Community?</h2>
 
         <button>Get Started For Free</button>
@@ -80,34 +83,46 @@
     <footer class="footer">
       <div class="footer-contact">
         <img class="footer-contact-logo" src="/images/logo.svg" alt="">
-        <div>
+
+        <div class="footer-ci">
           <img src="/images/icon-location.svg" alt="">
-          <p>Lorem ipsum
+          <p class="footer-ci-l">Lorem ipsum
           dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua</p>
         </div>
-        <div></div>
-        <div></div>
+
+        <div class="footer-ci">
+          <img src="/images/icon-phone.svg" alt="icon-phone">
+          <p>+1-543-123-4567</p>
+        </div>
+        <div class="footer-ci">
+          <img src="/images/icon-email.svg" alt="icon-email">
+          <p>example@huddle.com</p>
+        </div>
       </div>
       
      <div class="footer-about">
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>About Us</p>
+        <p>What We Do</p>
+        <p>FAQ</p>
      </div> 
      
       <div class="footer-career">
-        <div></div>
-        <div></div>
-        <div></div>
+        <p>Career</p>
+        <p>Blog</p>
+        <p>Contact Us</p>
       </div>  
       
       <div class="footer-socials">
+        <i class="fa-brands fa-facebook-f white-circle"></i>
+        <i class="fa-brands fa-twitter white-circle"></i>
+        <i class="fa-brands fa-instagram white-circle"></i>
         
       </div>
       
       <div class="footer-copyright">
-        <p></p>
+        <p class="copyright">&copy;</p>
+        <p>Copyright 2018 Huddle. All rights reserved.</p>
       </div>
     </footer>
   </body>
