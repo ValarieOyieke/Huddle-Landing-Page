@@ -113,7 +113,7 @@ h1,h2{
 .footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
-  padding: 5em 1.25em 3.125em 1.875em;
+  padding:  5em 1.25em 3.125em 1.875em;
 }
 
 
@@ -187,7 +187,6 @@ button {
 .try-btn:focus,
 .try-btn:hover{
   background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
@@ -314,6 +313,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:  6em 8em 5em;
   }
 
   .footer-contact{
